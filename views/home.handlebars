@@ -83,9 +83,9 @@
   <div class="row" id="magento">
     <p><span class="yellowbackground">This is a screenshot of the magento shopping portal. We would hook into this using
         magento's perfered method, maybe AJAX. The experience will be customized using JQuery. To make sure settings
-        stay the same across the site, I thinking of using a cookie, see <a
+        stay the same across the site, I am thinking of using a cookie, see <a
           href="https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie" target="blank">this documentation</a>
-        for a reference. Still in the research phase though. </span></p>
+        for a reference. THis is still in the research phase.</span></p>
   </div>{{!-- End Row magento --}}
 
 
@@ -196,7 +196,7 @@
     </div>
 
     <div class="col">
-      <div class="row featuredProductGreenText">FEATURED PROCUCT</div>
+      <div class="row featuredProductGreenText">FEATURED PRODUCT</div>
       <div class="row featuredProductBigText">A New Standard Of IWB Concealed Carry Holster Comfort.</div>
       <div class="row featuredProductSmallText">Inside the waistband or IWB holsters are the standard for concealed
         carry. Alien Gear's IWB holsters are designed to conceal easily but carry comfotably, so you can carry all day
@@ -222,11 +222,11 @@
   <script>
     $(document).ready(function () {
 
-$.each( $('*'), function() { 
-    if( $(this).width() > $('body').width()) {
-        console.log("Wide Element: ", $(this), "Width: ", $(this).width()); 
-    } 
-});
+      $.each($('*'), function () {
+        if ($(this).width() > $('body').width()) {
+          console.log("Wide Element: ", $(this), "Width: ", $(this).width());
+        }
+      });
     })//end document.ready
   </script>
 
