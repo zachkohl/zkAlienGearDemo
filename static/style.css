@@ -1,0 +1,214 @@
+.my-col{
+}
+
+.my-row{
+ 
+ 
+}
+
+
+
+.my-container{
+    min-height: 100%;
+    min-width:100%;
+    margin:0;
+    margin-right: 0;
+    margin-left:0;
+    padding:0;
+}
+
+/* 
+========================================================
+The Alien Gear Logo and The Nav Bar
+========================================================
+ */
+
+ #intro{
+     min-height:100vh;
+     min-width:100vh;
+     background-image:url('darkPistolwithWood.jpg');
+     background-repeat:no-repeat;
+     background-size:100%;
+     background-position: center;
+     margin:0;
+     margin-right: 0;
+     margin-left:0;
+     padding:0;
+ }
+
+.rowLogoAndNavBar{
+    height: 10em;
+}
+
+.alienGearLogo{
+background-image:url('logo_horiz_agh_white.png');
+background-repeat:no-repeat;
+background-size: 14.5em;
+
+margin-left:2.6em;
+margin-right:0;
+margin-top:1.15em;
+padding:0;
+}
+
+.navbarcell{
+    padding-top:2.7em;
+    text-align: left;
+}
+
+#navbarlist{
+    margin:0;
+    padding-left:1em;
+    padding-right:0;
+}
+
+#navbarlist li{
+    list-style-type: none;
+    display:inline;
+}
+
+#navbarlist li:hover{
+    color:blue
+}
+
+.navbarwhiteLinks{
+    color:white;
+    font-size:.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-right:.6em;
+ 
+}
+
+#extraSpace{
+    margin-left:.9em;
+}
+
+#extraSpace2{
+    margin-left:.6em;
+}
+
+#helplinkli{
+    margin-left:.2em;
+}
+
+#contactuslinkli{
+    margin-left:.5em;
+    word-spacing: .45em;
+    margin-right:2.5em;
+}
+.navbargreyLinks{
+    color: #d6d6d6;
+    font-size:.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right:1.2em;
+}
+
+.searchlinkli{
+    padding-left:2em;
+    background-image:url('greyMagnifingGlass.png');
+    background-size:1.3em;
+    background-repeat:no-repeat;
+}
+
+.searchlinkli:hover{
+    background-image:url('blueMagnifingGlass.png');
+
+}
+
+
+.userli{
+    padding-left:2em;
+    background-image:url('greyUser.png');
+    background-size:1.3em;
+    background-repeat:no-repeat;
+    margin-right:1em;
+}
+
+.userli:hover{
+    background-image:url('blueUser.png');
+
+}
+
+.checkoutli{
+   
+    padding-top:.3em;
+    padding-left:1em;
+    padding-right:0;
+    margin-right:0;
+    background-image:url('greyCheckout.png');
+    background-size:1em;
+    background-repeat:no-repeat;
+}
+
+.checkoutli:hover{
+    background-image:url('blueCheckout.png');
+
+}
+
+.searchlink{
+    height:1.3em;
+}
+
+.searchlink:hover{
+    src:"blueMagnifingGlass.png";
+}
+
+
+/* 
+========================================================
+The IWB Holsters Text
+========================================================
+ */
+
+
+
+.IWBHolsters{
+    padding-top:2.8em;
+    padding-left:.45em;
+    text-align:center;
+    color:white;
+    font-size:3.8em;
+    word-spacing: -.1em;
+    letter-spacing: -.01em;
+ 
+}
+
+
+.IWBsubTitle{
+    padding-top:.7em;
+    padding-left:1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:white;
+    display:block;
+    font-size:1.3em;
+}
+
+
+.IWBsubTitle p{
+margin-bottom: -.1em;
+}
+
+
+
+
+
+
+
+
+
+
+.rowGreenLink{
+    padding-top:5.7em;
+    padding-left:.9em;
+    text-align:center;
+    height: 10em;
+}
+
+.rowGreenLink a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#63ce4f;
+    font-size:.8em;
+    
+}
