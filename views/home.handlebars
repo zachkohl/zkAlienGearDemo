@@ -5,7 +5,7 @@
   {{!-- The front end of this site makes heavy use of the documentation and examples from bootstrap. http://getbootstrap.com/, Thier license can be found at https://creativecommons.org/licenses/by/3.0/ --}}
   {{!-- <!-- Required meta tags --> --}}
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {{!-- <!-- Bootstrap CSS --> --}}
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -24,17 +24,17 @@
           <div class="col alienGearLogo"></div>
           <div class="col-sm-7 my-col navbarcell">
             <ul id="navbarlist">
-              <li class="navbarwhiteLinks">SEARCH BY GUN </li>
-              <li class="navbarwhiteLinks">SHOP NOW</li>
+              <li class="navbarwhiteLinks"><a href="/test">SEARCH BY GUN</a></li>
+              <li class="navbarwhiteLinks"><a href="/test">SHOP NOW</a></li>
               <span id="extraSpace"> </span>
-              <li class="navbargreyLinks">Reviews</li>
-              <li class="navbargreyLinks">Blog</li>
-              <li class="navbargreyLinks">Videos</li>
-              <li class="navbargreyLinks" id="helplinkli">Help</li>
-              <li class="navbargreyLinks" id="contactuslinkli">Contact Us</li>
-              <li class="navbargreyLinks searchlinkli"></li>
-              <li class="navbargreyLinks userli"></li>
-              <li class="navbargreyLinks checkoutli"></li>
+              <li class="navbargreyLinks"><a href="/test">Reviews</a></li>
+              <li class="navbargreyLinks"><a href="/test">Blog</a></li>
+              <li class="navbargreyLinks"><a href="/test">Videos</a></li>
+              <li class="navbargreyLinks" id="helplinkli"><a href="/test">Help</a></li>
+              <li class="navbargreyLinks" id="contactuslinkli"><a href="/test">Contact Us</a></li>
+             <a href="/test"> <li class="navbargreyLinks searchlinkli"></li></a>
+             <a href="/test"><li class="navbargreyLinks userli"></li></a> 
+            <a href="/test"> <li class="navbargreyLinks checkoutli"></li></a> 
             </ul>
           </div>{{!-- End navbarlist --}}
         </div>{{!-- End rowLogAndNavBar --}}
@@ -84,7 +84,7 @@
     <p><span class="yellowbackground">This is a screenshot of the magento shopping portal. We would hook into this using
         magento's perfered method, maybe AJAX. The experience will be customized using JQuery. To make sure settings
         stay the same across the site, I am thinking of using a cookie, see <a
-          href="https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie" target="blank">this documentation</a>
+          href="https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie" target="blank" class="linkToReference">this documentation</a>
         for a reference. THis is still in the research phase.</span></p>
   </div>{{!-- End Row magento --}}
 
@@ -204,7 +204,8 @@
         of use, and to be adjustable so you can set the carry position and holster retention to your exact preference.
       </div>
     </div>
-  </div>{{!-- End row featuredProduct --}}
+  </div>  {{!-- End row featuredProduct --}}
+
 
   </div> {{!-- End container --}}
 
@@ -222,11 +223,7 @@
   <script>
     $(document).ready(function () {
 
-      $.each($('*'), function () {
-        if ($(this).width() > $('body').width()) {
-          console.log("Wide Element: ", $(this), "Width: ", $(this).width());
-        }
-      });
+
     })//end document.ready
   </script>
 

@@ -1,4 +1,23 @@
+/* 
+CSS for AlienGear demo site
+By Zach Kohl
+*/
+/* 
+========================================================
+mixins
+========================================================
+ */
 
+@mixin for-phone-only{
+    @media (max-width: 599px) { @content; }
+}
+
+
+ /* 
+========================================================
+Global styles
+========================================================
+ */
 
 
 .my-container{
@@ -10,6 +29,21 @@
     padding:0;
 }
 
+
+
+
+a {
+    color:inherit;
+}
+
+.linkToReference{
+    color:initial;
+}
+
+
+
+
+
 /* 
 ========================================================
 The Alien Gear Logo and The Nav Bar
@@ -20,6 +54,11 @@ The Alien Gear Logo and The Nav Bar
      min-height:100vh;
      min-width:100vh;
      background-image:url('darkPistolwithWood.jpg');
+
+     @include for-phone-only{
+        background-image:url('pistolGreenBackpack.jpg');
+     }
+
      background-repeat:no-repeat;
      background-size:cover;
      background-position: center;

@@ -7,5 +7,10 @@ config.app.get('/', function (req, res) {
 
 config.app.get('/test', function (req, res) {
 
-   res.send('This would be another page of the site')
+   res.render('return')
 });//end '/test'
+
+config.app.get('/m', function (req, res) {
+
+   res.render('mobile')
+});//end '/'
